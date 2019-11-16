@@ -1,22 +1,57 @@
 .top{
     background-image: url('../images/back.jpg');
-    height:100vh; 
+    height:500px; 
     background-size: cover;
 }
-h2{
-    color: #0B5345  ;
-    text-decoration: underline;
-}
-img{
+
+/* img{
     border-radius: 50%;
     height: 50%;
     width: 60%;
-}
-.footer
-{
-    background-color: grey;
-    padding: 10px;
-    margin-top:80px;
-    font-size: 5px;
+} */
+.buttons {
+    padding-top: 6rem;
     text-align: center;
+    size: 80px;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    padding-top: 1.3em;
+    background-color: #E8E8E8; 
+  }
+  
+  footer ul {
+    padding: 0px;
+  }
+  
+  footer ul li {
+    list-style: none;
+    display: inline;
+    margin:0px 10px;
+  }
+  a {
+    color: inherit;
+  }
+  .well{
+    background-image: url('../images/journ.jpg');
+    height:155vh; 
+    background-size: cover;  
+  }
+  nav{
+    height: 70px;
+    background-color:rgb(48, 47, 47);
+    text-align: center;
+    position: fixed;
+    top:5px;
+    width:100%;
+    z-index: 1;
+}
+.active{
+   
+        background-image: url('../images/cd.jpg');
+        height:150vh;
+        background-size: cover;
+   
 }
